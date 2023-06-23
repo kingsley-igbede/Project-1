@@ -8,3 +8,12 @@
 
 ![apache status](.\images\apache-status.PNG)
 
+
+### Installing MySql
+
+`sudo apt install mysql-server`
+
+`sudo mysql`
+
+![mysql status](.\images\mysql-status.PNG)
+
