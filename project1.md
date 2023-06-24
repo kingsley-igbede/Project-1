@@ -17,3 +17,16 @@
 
 ![mysql status](.\images\mysql-status.PNG)
 
+
+### Securing MySql
+
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
+`mysql> exit`
+
+`sudo mysql_secure_installation`
+
+`sudo mysql -p`
+
+`mysql> exit`
+
+![mysql security](.\images\securing-mysql.PNG)
