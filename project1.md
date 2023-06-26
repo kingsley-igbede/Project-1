@@ -30,3 +30,13 @@
 `mysql> exit`
 
 ![mysql security](.\images\securing-mysql.PNG)
+
+
+### Installing PHP And It's Dependencies
+
+`sudo apt install php libapache2-mod-php php-mysql`
+
+`php -v`
+
+![PHP install](.\images\installing-PHP.PNG)
+
