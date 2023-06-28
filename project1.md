@@ -80,4 +80,28 @@
 
 ![website URL2](.\images\website-url-public-dns.PNG)
 
-S
+
+### Enabling PHP On The Webseite
+
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
+
+`<IfModule mod_dir.c>
+        #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>`
+
+`sudo systemctl reload apache2`
+
+`vim /var/www/projectlamp/index.php`
+
+`<?php
+phpinfo();`
+
+![enable PHP](.\images\enable-php-website.PNG)
+
+![enable PHP2](.\images\enable-php-website2.PNG)
+
+
+
