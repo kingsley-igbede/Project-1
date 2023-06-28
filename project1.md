@@ -64,3 +64,20 @@
 
 ![apache virtual host2](.\images\virtual-host-apache2.PNG)
 
+`sudo apache2ctl configtest`
+
+`sudo systemctl reload apache2`
+
+`sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
+
+`http://<Public-IP-Address>:80`
+
+`http://<Public-DNS-Name>:80`
+
+![reload apache](.\images\apache-reloaded.PNG)
+
+![website URL1](.\images\website-url-ip-address.PNG)
+
+![website URL2](.\images\website-url-public-dns.PNG)
+
+S
